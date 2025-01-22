@@ -1,5 +1,5 @@
 # Form Login dan register dengan Enkripsi RSA dengan PHP
-## deskripsi
+## Deskripsi
 tujuan dari proyek ini adalah untuk membuat form login dan register yang aman dengan menggunakan metode enkripsi RSA menggunakan bahasa PHP. 
 untuk data login akan dienkripsi menggunakan kunci private dan akan dideskripsi menggunakan kunci publik oleh pengguna yang akan mendapatkan 
 serta kelengkapan validasi input serta sanitasi data.. dan tidak lupa keamanannya untuk mencegah sql injection dan XSS
@@ -9,8 +9,13 @@ serta kelengkapan validasi input serta sanitasi data.. dan tidak lupa keamananny
 - Registrasi pengguna baru.
 - Sistem logout.
 - Penyimpanan data di database.
+  
+## Teknologi yang digunakan
+- bahasa pemograman = php
+- server lokal = laragon
 
-## struktur folder
+
+## Struktur folder
 ```
 loginRSA/
 ├── buatrsa.php            # Script untuk membuat kunci RSA 
@@ -25,7 +30,7 @@ loginRSA/
 ├── keys/                  # Folder berisi kunci public dan private
 ```
 
-## cara kerja
+## Cara kerja
 1. Pembuatan kunci RSA
    - jalankan buatrsa.php untuk melihat kunci rsa
    - kunci berada di dalam keys untuk publik dan private
@@ -36,16 +41,19 @@ loginRSA/
    - terdapat error jika salah inputan
    - input daisanitasi untuk pencegahan sql injection dan XSS
 
-## pengujian
+## Pengujian
 - login berhasil: pengguna memasukkan data terlebih dahulu kedalam halaman register
 - login gagal :menampilkan pesan kesalahan untuk kredensial yang salah
 - Keamanan Input: Uji dengan input berbahaya untuk memastikan sanitasi bekerja.
 
-## kontribusi tim
+## Dokumentasi
+- penjelasan dapat dilihat lengkap di README ini
+
+## Kontribusi tim
 - BACKEND DEV = mohamad farhat, dwiki kurniawan
 - Dokumentasi = mohamad farhat
 - pengujian = alif makasau, dwiki kurniawan
 
-## lisensi
+## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](./LICENSE).
    
