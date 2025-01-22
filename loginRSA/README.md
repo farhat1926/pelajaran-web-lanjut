@@ -35,5 +35,5 @@ loginRSA/ ├── buatrsa.php # Script untuk membuat kunci RSA ├── compo
 - pengujian = alif makasau, dwiki kurniawan
 
 ## lisensi
-proyek ini mendapatkan lisensi [MIT License](./LICENSE).
+Proyek ini dilisensikan di bawah [MIT License](./LICENSE).
    
