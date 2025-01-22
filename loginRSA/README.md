@@ -13,6 +13,7 @@ serta kelengkapan validasi input serta sanitasi data.. dan tidak lupa keamananny
 ## Teknologi yang digunakan
 - bahasa pemograman = php
 - server lokal = laragon
+- library yang digunakan = vendor phpseclib3
 
 
 ## Struktur folder
@@ -42,12 +43,14 @@ loginRSA/
    - input daisanitasi untuk pencegahan sql injection dan XSS
 
 ## Pengujian
-- login berhasil: pengguna memasukkan data terlebih dahulu kedalam halaman register
+- register berhasil: memasukkan data dengan benar kedalam form
+- login berhasil : ketika pengguna sudah memasukkan data dari halaman registrasi
 - login gagal :menampilkan pesan kesalahan untuk kredensial yang salah
 - Keamanan Input: Uji dengan input berbahaya untuk memastikan sanitasi bekerja.
 
 ## Dokumentasi
-- penjelasan dapat dilihat lengkap di README ini
+- penjelasan berada README ini
+- kami menggunakan
 
 ## Kontribusi tim
 - BACKEND DEV = mohamad farhat, dwiki kurniawan
