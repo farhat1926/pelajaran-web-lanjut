@@ -13,16 +13,16 @@ serta kelengkapan validasi input serta sanitasi data.. dan tidak lupa keamananny
 ## struktur folder
 ```
 loginRSA/
-├── buatrsa.php # Script untuk membuat kunci RSA 
-├── composer.json # File konfigurasi Composer
-├── composer.lock # File lock Composer
-├── database.php # Koneksi database
-├── index.php # Halaman register
-├── keluar.php # Script untuk logout
-├── login.php # Script untuk login
-├── registrasi.php # Script untuk halaman index
-├── style.css # File CSS untuk styling
-├── keys/ # Folder berisi kunci public dan private
+├── buatrsa.php            # Script untuk membuat kunci RSA 
+├── composer.json          # File konfigurasi Composer
+├── composer.lock          # File lock Composer
+├── database.php           # Koneksi database
+├── index.php              # Halaman register
+├── keluar.php             # Script untuk logout
+├── login.php              # Script untuk login
+├── registrasi.php         # Script untuk halaman index
+├── style.css              # File CSS untuk styling
+├── keys/                  # Folder berisi kunci public dan private
 ```
 
 ## cara kerja
