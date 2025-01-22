@@ -11,7 +11,7 @@ serta kelengkapan validasi input serta sanitasi data.. dan tidak lupa keamananny
 - Penyimpanan data di database.
 
 ## struktur folder
-loginRSA/ ├── buatrsa.php # Script untuk membuat kunci RSA ├── composer.json # File konfigurasi Composer ├── composer.lock # File lock Composer ├── database.php # Koneksi database ├── index.php # Halaman register ├── keluar.php # Script untuk logout ├── login.php # Script untuk login ├── registrasi.php # Script untuk halaman index ├── style.css # File CSS untuk styling └── keys/ # Folder berisi kunci RSA
+```loginRSA/ ├── buatrsa.php # Script untuk membuat kunci RSA ├── composer.json # File konfigurasi Composer ├── composer.lock # File lock Composer ├── database.php # Koneksi database ├── index.php # Halaman register ├── keluar.php # Script untuk logout ├── login.php # Script untuk login ├── registrasi.php # Script untuk halaman index ├── style.css # File CSS untuk styling └── keys/ # Folder berisi kunci RSA```
 
 ## cara kerja
 1. Pembuatan kunci RSA
