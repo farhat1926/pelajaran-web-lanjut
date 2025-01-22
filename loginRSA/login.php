@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 // Redirect ke registrasi.php jika sudah login
 if (isset($_SESSION["user"])) {
     header("Location: registrasi.php");
@@ -28,8 +29,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST["login"])) {
             // Verifikasi password
             if (password_verify($password, $user["password"])) {
                 // Simpan informasi kunci dan email ke dalam session
+                $emailPrefix = strstr($user["email"], '@', true);
                 $_SESSION["user"] = [
                     "email" => $user["email"],
+                    "email_prefix" => $emailPrefix,
                     "public_key" => $user["public_key"],
                     "private_key" => $user["private_key"],
                 ];

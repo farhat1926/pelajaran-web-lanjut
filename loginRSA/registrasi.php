@@ -1,15 +1,22 @@
 <?php
 session_start();
 
+
+
 // Redirect ke login.php jika user belum login
 if (!isset($_SESSION["user"])) {
     header("Location: login.php");
     exit();
 }
 
+
+
 // Ambil data user dari session
 $user = $_SESSION["user"];
-$publicKey = htmlspecialchars($user["public_key"]);
+// $publicKey = htmlspecialchars($user["public_key"]);
+$emailPrefix = isset($user["email_prefix"]) ? htmlspecialchars($user["email_prefix"]) : "User";
+
+
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +33,9 @@ $publicKey = htmlspecialchars($user["public_key"]);
 
 <body>
     <div class="container mt-5">
-        <h1>Selamat Datang !, <h3><?php echo htmlspecialchars($user["name"]); ?></h3></h1>
+        <h1>Selamat Datang , <?php echo $emailPrefix; ?>
+        </h1>
+
         <a href="keluar.php" class="btn btn-danger mt-3">LogOut</a>
     </div>
 </body>
