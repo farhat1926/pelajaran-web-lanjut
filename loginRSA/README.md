@@ -11,7 +11,7 @@ serta kelengkapan validasi input serta sanitasi data.. dan tidak lupa keamananny
 - Penyimpanan data di database.
 
 ## struktur folder
-```.
+.
 ├── buatrsa.php # Script untuk membuat kunci RSA 
 ├── composer.json # File konfigurasi Composer
 ├── composer.lock # File lock Composer
