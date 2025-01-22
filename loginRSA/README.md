@@ -40,7 +40,7 @@ loginRSA/
    - data dienkripsi menggunakan kunci public dan private
 3. validasi dan sanitasi
    - terdapat error jika salah inputan
-   - input daisanitasi untuk pencegahan sql injection dan XSS
+   - input disanitasi untuk pencegahan sql injection dan XSS
 
 ## Pengujian
 - register berhasil: memasukkan data dengan benar kedalam form
