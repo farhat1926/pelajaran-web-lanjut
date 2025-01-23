@@ -55,7 +55,7 @@ loginRSA/
 ## Kontribusi tim
 - BACKEND DEV = mohamad farhat, dwiki kurniawan
 - Dokumentasi = mohamad farhat
-- pengujian = alif makasau, dwiki kurniawan
+- pengujian = alif makasau, dwiki kurniawan, farrel eagan
 
 ## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](./LICENSE).
